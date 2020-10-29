@@ -58,7 +58,6 @@ else:
 
 figure_input = input("What Shape should the second figure be?: ")
 color_input = input("What color should the second figure be?: ")
-print("Drawing a %s %s." % (color_input, figure_input))
 
 if figure_input in accepted_strings:
     print("Drawing a %s %s." % (color_input, figure_input))
@@ -77,7 +76,6 @@ else:
 
 figure_input = input("What Shape should the third figure be?: ")
 color_input = input("What color should the third figure be?: ")
-print("Drawing a %s %s." % (color_input, figure_input))
 
 if figure_input in accepted_strings:
     print("Drawing a %s %s." % (color_input, figure_input))
