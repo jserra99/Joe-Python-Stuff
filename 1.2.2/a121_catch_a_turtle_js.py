@@ -11,7 +11,7 @@ turtle_shape = "circle"
 tt.bgcolor("black")
 score = 0
 font_setup = ("Arial", 20, "normal")
-timer = 10
+timer = 30
 counter_interval = 1000   #1000 represents 1 second
 timer_up = False
 leaderboard_file_name = "a122_leaderboard.txt"
