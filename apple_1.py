@@ -1,3 +1,17 @@
+'''
+Definitely my worst code yet. Super inefficient, the problem is making an active event handler and having that have to conform to changing inputs. 
+The turtle code has no good way of doing this. I have spent about 4 hours trying to get this to work. 
+Here were some more issues I was running into: you cannot pass parameters into the onkeypress event function handler so there was no 
+way I could easily create one definition for all the apples. I then ran into problems with my new input intake method looping and crashing with a while loop, 
+only one apple being controlled at a time, and numerous other things. I finally settled on the built in ontimer function of the turtle module. 
+Which kept looping the same code over and over without crashing but did not update the code at all. As my lists were being modified outside of the ontimer loop, 
+the lists it was supposed to be reading were not being properly updated by itself. Basically python interpretted it once and stored it in memory. 
+Therefore all the apples work the first go around but not the second. I also had some issues where instead of giving the int of the sprite 
+Y-cor it was giving me the memory address. (Very fun to deal with). 
+TLDR: This technically checks off all the boxes required by pltw: It holds 5 apples, they each *contain* a letter, and (atleast the first time) when the player 
+types a letter it works.
+'''
+
 #   a123_apple_1.py
 import turtle as trtl
 import time
