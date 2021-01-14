@@ -1,6 +1,7 @@
 import turtle as tt
 import random as rng
 
+#Setting up the game
 wn = tt.Screen()
 wn.bgcolor("black")
 walls = tt.Turtle()
@@ -11,6 +12,7 @@ barrierLength = 30
 walls.color("white")
 walls.speed(11)
 
+#Functions to shorten the code and use onkeypress.
 def makeBarrier(amount):
     walls.forward(amount)
     walls.left(90)
