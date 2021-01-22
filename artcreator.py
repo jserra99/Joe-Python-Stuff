@@ -1,3 +1,9 @@
+'''
+Does work on macOS but due to some differences with windows such as the way it handles directories causes some features
+to break, ie: the screenshot function which saves to the wrong place on macOS, 
+right clicking with the trackpad also does not seem to work
+'''
+
 #Importing necessary modules
 import pygame as pg
 import pyautogui as ag
